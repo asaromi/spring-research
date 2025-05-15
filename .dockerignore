@@ -1,0 +1,6 @@
+# Ignore everything except the target directory
+*.log
+*.class
+*.iml
+.idea/
+.vscode/

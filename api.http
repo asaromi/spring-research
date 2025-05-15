@@ -1,0 +1,18 @@
+### Roles - Get All Roles
+GET http://localhost:8080/api/roles
+    ?limit=1
+Authorization: A
+
+### Roles - Get by roleId
+GET http://localhost:8080/api/roles/01JTZZ4M3J7BF2SNFWD9Y02V4T
+Authorization: A
+
+### Roles - Create new role
+POST http://localhost:8080/api/roles
+Authorization: A
+Content-Type: application/json
+
+{
+    "name": "Super Admin",
+    "description": "The most powerful role that can do everything"
+}
